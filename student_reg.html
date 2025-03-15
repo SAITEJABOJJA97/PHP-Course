@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+ <head>   
+   <title> Students Registrations </title>
+   <style>
+
+     #file_upload {
+
+         color : rgb(68, 0, 255)
+      }
+     #upload {
+
+        color : rgb(0, 255, 136)
+
+     }
+
+     .name {
+
+         color: rgba(211, 137, 18, 0.548)
+
+     }
+
+   </style>
+ </head>
+ <body>
+    
+    <form action="insert_students.php" method ="post" enctype="multipart/form-data">
+   
+
+      <h1 class = "name"> Please upload student Info! </h1>
+
+      Student Name : <input type="number" min = "0" max = "100" name="student_id" id="student_id" placeholder="student id" >
+    </br>
+
+     Student Name : <input type="text" name="student_name" id="student_name" placeholder="student name" >
+    </br>
+    Student Email : <input type="text" name="student_email" id="student_email" placeholder="student email" >
+    </br>
+    Student Address : <input type="text" name="student_add" id="student_add"  placeholder="student address">
+    </br>
+    Student Phone : <input type="text" name="student_phone" id="student_phone" placeholder="student phone">
+    </br>
+
+  </br>
+
+    Student Module Type : <select name="student_module_id">
+      <option value = ''>Please select student module</option>
+      <option disabled value = '1'>WEB Application</option>
+      <option disabled value= '2'>Mobile Application</option>
+      <option disabled value= '3'>ERP Solution</option>
+      </select>
+   
+  </br>
+
+    
+
+  </br>
+
+    </br>
+     <input type="submit" value="Register Student" name="submit" id = "student_reg" >
+
+    </form>
+
+ </body>
+
+
+
+</html>
