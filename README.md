@@ -7,7 +7,7 @@ A complete guide to learning PHP for dynamic web development.
 ## 🚀 Course Modules
 📖 **Module 1:** Introduction to PHP & Syntax Basics  
 🛠️ **Module 2:** Database Interaction (MySQL)  
-💡 **Module 3:** PHP Frameworks (Laravel, Yii2)  
+💡 **Module 3:** PHP Core (help to learn Frameworks like Laravel, Yii2)  
 🚀 **Module 4:** Full-Stack PHP Project  
 
 ## 🛠️ Technologies Covered
