@@ -1,5 +1,5 @@
 <?php
-
+// this is call back function 
 function demo_callback($data) {
 
     //return strlen($data);
