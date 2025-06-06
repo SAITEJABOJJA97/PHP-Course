@@ -26,10 +26,10 @@
             peach :  <input type="checkbox" name="fruit[]" value="peach"><br>
             <input type="submit">
         </form> -->
-        <form action="sai_teja_php.php" method="POST">
+        <!-- <form action="sai_teja_php.php" method="POST">
              <input type="text" name="student">
              <input type="submit">
-             </form>
+             </form> -->
         <?php
 
         // echo("hello world");
@@ -70,9 +70,12 @@
         // echo $fruit[0];
 
 
-        $CGPA = array("jim"=>7.6,"pam"=>7.9,"oscar"=>9.0);
-            echo $CGPA[$_POST["student"]];
+        // $CGPA = array("jim"=>7.6,"pam"=>7.9,"oscar"=>9.0);
+        // echo $CGPA[$_POST["student"]];
         // echo "<pre>" . print_r($CGPA,true) . "</pre>";
+
+
+       
 
 
 
